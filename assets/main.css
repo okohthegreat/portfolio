@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --background: #00346B;
+    --white: #FFFFFF;
+    --cards: rgb(255, 255, 255, 0.3);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    position: relative;
+}
+
+.center-text {
+    display: flex;
+    width: 881px;
+    height: 100vh;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.center-text h1 {
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--white);
+}
+
+.center-text p {
+    color: var(--white, #FFF);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 20px;
+    display: inline;
+}
+
+.center-link {
+    display: flex;
+    padding: 10px 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 49px;
+    border-radius: 365px;
+    border: 1px solid var(--main, #FFF);
+}
+
+.center-link a {
+    color: var(--main, #FFF);
+    text-align: center;
+    font-size: 14px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.center-link img {
+    margin-left: 15px;
+}
+
+.circle:nth-child(1) {
+    top: 100vh;
+}
+
+.circle1 {
+    border-radius: 651px;
+    opacity: 0.3;
+    background: #FFF;
+    filter: blur(116px);
+    width: 651px;
+    height: 651px;
+    position: absolute;
+    top: -300px;
+    right: -500px;
+    justify-content: flex-start;
+}
+
+.nav {
+    color: var(--white, #FFF);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    font-weight: 400;
+}
+
+.nav .logo {
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+}
