@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --background: #00346B;
+    --background: #14141E;
     --white: #FFFFFF;
-    --cards: rgb(255, 255, 255, 0.3);
+    --cards: rgba(255, 255, 255, 0.068);
 }
 
 * {
@@ -23,6 +23,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .header {
@@ -52,11 +53,11 @@ body {
 .center-text p {
     color: var(--white, #FFF);
     font-size: 14px;
+    font-family: Montserrat;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
-    margin-top: 20px;
-    display: inline;
+    padding-top: 10px;
 }
 
 .center-link {
@@ -84,20 +85,30 @@ body {
     margin-left: 15px;
 }
 
-.circle:nth-child(1) {
+/* .circle:nth-child(1) {
     top: 100vh;
-}
+} */
 
 .circle1 {
     border-radius: 651px;
-    opacity: 0.3;
-    background: #FFF;
-    filter: blur(116px);
+    background: var(--cards, rgba(255, 255, 255, 0.027));
+    filter: blur(116px);   
     width: 651px;
     height: 651px;
     position: absolute;
     top: -300px;
     right: -500px;
+    justify-content: flex-start;
+}
+.circle2{
+    border-radius: 651px;
+    background: var(--cards, rgba(255, 255, 255, 0.027));
+    filter: blur(116px);   
+    width: 651px;
+    height: 651px;
+    position: absolute;
+    bottom: -300px;
+    left: -500px;
     justify-content: flex-start;
 }
 
