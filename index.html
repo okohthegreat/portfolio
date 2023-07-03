@@ -6,44 +6,88 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>okohthegreat-portfolio</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./assets/main.css'>
-    <script src='./assets/main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script src="https://kit.fontawesome.com/b0ee58e401.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+    $("#icon").click(function(){
+        $('ul').toggleClass('show');
+    });
+
+});
+    </script>
 </head>
 
 <body>
     <div class="header">
         <div class="center-text">
             <h1>
-                PROFESSIONAL DESIGNERS AND DEVELOPERS AT YOUR FINGERTIPS
+                <span class="span-h1">PROFESSIONAL</span> DESIGNER AND DEVELOPER AT YOUR FINGERTIPS
             </h1>
             <p>Quality as a priority. Efficiency as an advantage. Project success as the main goal</p>
-            <div>
-                <a href="#" class="center-link"> Contact Us
-                    <img src="./assets/img/Vector.svg" alt="">
+            <div class="centerlink-a">
+                <a href="#" class="center-link"> Contact Me
+                    <img src="./assets/svg/Vector.svg" alt="">
                 </a>
-
-            </div>
-
-            <div class="circle">
-                <div class="circle1"></div>
-                <div class="circle2"></div>
-            </div>
-            <div class="nav">
-                <div>
-
-                </div>
-                <div class="logo">
-                    <a href="#">OkohTheGreat</a>
-                </div>
-                <div>
-                    <ul>
-                        <li><a href="#">about us</a></li>
-                        <li><a href="#">case studies</a></li>
-                        <li><a href="#">careers</a></li>
-                    </ul>
-                </div>
             </div>
         </div>
+
+
+        <div class="circle">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+        </div>
+
+        <div class="smile">
+            <div class="smile1">
+                <p> <span>Smiles</span> <img src="assets/svg/Union.svg" alt=""> 5.0</p>
+                <p> This isn’t the rating of me
+                    Shall I shock you? </p>
+
+            </div>
+            <a href="#" class="scroll-down"> <img src="./assets/svg/Group 13.svg" alt="">
+            </a>
+        </div>
+        <div class="navbar">
+            <div class="nav">
+                <a href="#">
+                    <img src="./assets/svg/Component 3.svg" alt="">
+                </a>
+                
+                    <div class="logo">
+                        <a href="#">OkohTheGreat</a>
+                    </div>
+                    <div id="icon" class="bars">   
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                  
+                    <ul class="navlink">
+
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">case studies</a></li> 
+                        <li><a href="#">careers</a></li> 
+                        <div class="bar-nav"></div>
+                         <li class="navicon">
+                            <a href="#">
+                                <img src="./assets/svg/Vector (3).svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/svg/Vector (1).svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/svg/Vector (2).svg" alt="">
+                            </a>
+                        </li>
+                        
+
+
+                    </ul>
+
+            </div>
+        </div>
+
     </div>
 
 
