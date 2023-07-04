@@ -24,10 +24,10 @@ body {
     transition: .3s ease-in-out;
 }
 
-.header {
-    /* height: 100vh; */
+/* .header {
+    height: 100vh;
     position: relative;
-}
+} */
 
 .center-text {
     display: flex;
@@ -201,6 +201,23 @@ body {
     width: 100%;
     position: sticky;
     top: 0px;
+}
+.section1{
+    padding: 150px 80px;
+    display: flex;
+justify-content: right;
+flex-direction: column;
+justify-content: flex-end;
+flex-shrink: 0;
+}
+
+.section1-p{
+    max-width: 900px;
+    margin: 0 0 0 auto;
+color: #FFF;
+text-align: right;
+font-size: 40px;
+font-weight: 700;
 }
 
 
@@ -400,6 +417,10 @@ body {
     .logo a {
         padding-left: 0;
     }
+    .section1-p{
+        font-size: 30px;
+        font-weight: 600;
+    }
 }
 
 @media screen and (max-width:480px) and (min-width:280px) {
@@ -514,5 +535,12 @@ body {
         padding-left: 0;
         font-size: 14px;
         font-weight: 400;
+    }
+    .section1-p{
+        font-weight: 500;
+        font-size:20px ;
+    }
+    .section1{
+        padding: 100px 40px;
     }
 }
