@@ -261,11 +261,12 @@ font-weight: 500;
 .section2-text a{
     color: var(--text-color);
     font-size: 14px;
+    font-weight: 500;
 }
 .section2-text p{
     font-size: 18px;
     font-family: 'Urbanist', sans-serif;
-    font-weight: 100px;
+    font-weight: 100;
     margin: 30px 0px;
     line-height: 30px;
 
@@ -343,7 +344,7 @@ font-weight: 500;
         height: 100vh;
         top: 60px;
         left: -100%;
-        background: rgba(31, 30, 45, 0.01);
+        background: rgb(31, 30, 45);
         backdrop-filter: blur(5px);
     }
     .navlink a{
@@ -454,7 +455,7 @@ font-weight: 500;
         height: 100vh;
         top: 60px;
         left: -1000px;
-        background: rgba(31, 30, 45, 0.01);
+        background: rgba(31, 30, 45);
         backdrop-filter: blur(5px);
     }
     .navlink a{
@@ -558,7 +559,7 @@ font-weight: 500;
         height: 100vh;
         top: 60px;
         left: -1000px;
-        background: rgba(31, 30, 45, 0.01);
+        background: rgba(31, 30, 45);
         backdrop-filter: blur(5px);
     }
     .navlink a{
@@ -636,6 +637,7 @@ font-weight: 500;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        text-align: center;
         gap: 50px;
     }
     .section2-header h2{
@@ -647,8 +649,10 @@ font-weight: 500;
     }
     .section2-text p{
         font-size: 14px;
+        text-align: center;
     }
     .section2-text a{
         font-size: 12px;
+   
     }
 }
