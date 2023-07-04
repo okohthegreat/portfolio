@@ -621,4 +621,34 @@ font-weight: 500;
     .section1{
         padding: 100px 40px;
     }
+    .section2-header{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+    }
+    .aboutMeImage{
+        width: 250px;
+    }
+    .section2-about{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .section2-header h2{
+        text-align: center;
+        font-size: 25px;
+    }
+    .section2-text h3{
+        font-size: 18px;
+    }
+    .section2-text p{
+        font-size: 14px;
+    }
+    .section2-text a{
+        font-size: 12px;
+    }
 }
