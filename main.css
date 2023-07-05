@@ -464,6 +464,8 @@ body {
 
 .Message-box {
     padding: 45px 55px 0px 55px;
+    position: relative;
+    z-index: 9997;
 
 }
 
@@ -499,6 +501,46 @@ color: var(--text-color);
 
 input:hover{
     cursor: pointer;
+}
+.semi-circle{
+    border-radius: 651px;
+    background: rgba(255, 255, 255, 0.11);
+    filter: blur(116px);
+    position: absolute;
+    width: 1098px;
+    height: 343px;
+    bottom: -28px;
+    right: 136px;
+    z-index: 9996;
+}
+.logo1 a{
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.icon{
+    color: var(--text-color);
+    font-size: 20px;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    border-top: 1px solid rgba(255, 255, 255, 0.10);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(31, 30, 45, 0.01);
+    margin-top: 40px;
+    padding: 10px 80px;
+    width: 100%;
 }
 
 
