@@ -538,6 +538,7 @@ footer{
     border-top: 1px solid rgba(255, 255, 255, 0.10);
     border-bottom: 1px solid rgba(255, 255, 255, 0.10);
     background: rgba(31, 30, 45, 0.01);
+    backdrop-filter: (5px);
     margin-top: 40px;
     padding: 10px 80px;
     width: 100%;
